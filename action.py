@@ -70,7 +70,7 @@ class CloudMusic:
         self.loginData = self.enc.encrypt(
             json.dumps({
                 'phone': phone,
-                'countrycode': '86',
+                'countrycode': '44',
                 'password': password,
                 'rememberLogin': 'true'
             }))
